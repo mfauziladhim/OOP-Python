@@ -27,4 +27,3 @@ print(animal1.hobby)
 animal2 = animal("Justin", "Games")
 animal2.name
 animal2.hobby
-
