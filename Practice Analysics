@@ -1,0 +1,22 @@
+class Inventory:
+    def __init__(self, data_A, data_B, data_C, total):
+        self.data_A = data_A
+        self.data_B = data_B
+        self.data_C = data_C
+        self.total = total
+        
+        
+    def for_inventory(self, data):
+        return 
+        if self.data_A == self.total:
+            print(f"Data successful")
+        elif self.data_B == self.total:
+            print("Data successful")
+        elif self.data_C == self.total:
+            print("Data successful")
+        else:
+            print("The size of data is too big, reduce the size")
+
+
+data_set1 = Inventory(50, 50, 50, 150)
+print(data_set1.for_inventory())
