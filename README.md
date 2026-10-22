@@ -1,2 +1,2 @@
-# OOP-Python
+# Learn OPP Python
 Learn OOP
