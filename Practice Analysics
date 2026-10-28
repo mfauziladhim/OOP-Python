@@ -20,3 +20,25 @@ class Inventory:
 
 data_set1 = Inventory(50, 50, 50, 150)
 print(data_set1.for_inventory())
+
+
+
+class Smart_AC:
+    def __init__(self, temperature, on):
+        self.__temperature = temperature
+        self.__is_on = temperature
+        
+    def new_smart_ac(self, Smart_AC):
+        self.__temperature = temperature.stript().lower()
+        
+        if self.__temperature >= 30:
+            print(f"Maximum Temperature is 30°")
+        elif self.__temperature <= 14:
+            print(f"Mininum Temperature is 14°")
+        else:
+            none
+            
+            
+user1 = Smart_AC(45, "on")
+
+print(user1.new_smart_ac(self, Smart_AC))
